@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="vertical"-->
+    <!--android:background="@drawable/input_outline"-->
+    <!--android:layout_marginBottom="20dp">-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/post_image"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="200dp"-->
+    <!--android:layout_alignParentStart="true"-->
+    <!--android:layout_below="@+id/textview"-->
+    <!--android:layout_marginTop="22dp"-->
+    <!--/>-->
+
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="vertical"-->
+    <!--&gt;-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/post_title"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:text="Title goes here.."-->
+    <!--android:textSize="16dp"-->
+    <!--android:layout_marginRight="10dp"-->
+    <!--android:layout_marginLeft="10dp"-->
+
+
+    <!--android:textStyle="bold" />-->
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="vertical">-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/post_desc"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+
+    <!--android:paddingBottom="15dp"-->
+    <!--android:layout_marginLeft="10dp"-->
+    <!--android:paddingEnd="15dp"-->
+
+
+    <!--android:textAlignment="viewStart"-->
+    <!--android:textStyle="bold"-->
+    <!--tools:text="Description goes here" />-->
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="vertical">-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/post_name"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+
+    <!--android:layout_marginLeft="10dp"-->
+
+
+
+    <!--android:textAlignment="viewStart"-->
+    <!--android:textStyle="bold"-->
+    <!--tools:text="Name goes here." />-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="horizontal">-->
+
+    <!--<ImageButton-->
+    <!--android:id="@+id/likeBtn"-->
+    <!--android:layout_width="62dp"-->
+    <!--android:layout_height="46dp"-->
+    <!--android:layout_marginEnd="15dp"-->
+    <!--android:layout_marginLeft="15dp"-->
+    <!--android:layout_marginRight="15dp"-->
+
+    <!--android:background="#00ffffff"-->
+    <!--android:src="@mipmap/ic_thumb_up_black_24dp" />-->
+    <!--</LinearLayout>-->
+    <!--</LinearLayout>-->
+
+    <!--</LinearLayout>-->
+
+    <!--</LinearLayout></LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:background="@drawable/input_outline"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:paddingLeft="5dp"
+
+                android:id="@+id/All_users_post_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=" title goes here ..."
+                android:textSize="16dp"
+
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:id="@+id/All_users_name"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:hint=" name goes here ..."
+                android:textSize="16dp"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+
+                android:id="@+id/likeBtn"
+                android:layout_width="68dp"
+                android:layout_height="46dp"
+
+                android:background="#00ffffff"
+
+                android:src="@mipmap/ic_thumb_up_black_24dp" />
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,1 @@
+python tensorflow/examples/label_image/label_image.py --graph=/home/yash/ProjectDB/PotholeDataset/output_graph.pb --labels=/home/yash/ProjectDB/PotholeDataset/output_labels.txt --image=/home/yash/Downloads/lapt.jpeg --input_layer=input --output_layer=final_result --input_width=128 --input_height=128
