@@ -1,3 +1,0 @@
-pothole
-nonpg
-garbage

@@ -1,4 +1,0 @@
-#Tue Feb 06 14:30:25 IST 2018
-base.0=/home/yash/ProjectDB/CSP8-PDBS3/Android_Studio/CSPApp/app/gradleBuild/intermediates/transforms/dexMerger/debug/0
-path.0=classes.dex
-renamed.0=classes.dex
